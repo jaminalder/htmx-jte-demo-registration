@@ -1,13 +1,10 @@
-package com.example.demoreg;
+package com.example.demoreg.view.enterpassword;
 
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotBlank;
+import com.example.demoreg.domain.RegistrationDomain;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 

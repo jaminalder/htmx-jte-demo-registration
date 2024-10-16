@@ -1,5 +1,6 @@
-package com.example.demoreg;
+package com.example.demoreg.view.entertoken;
 
+import com.example.demoreg.view.shared.TextFieldViewModel;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.util.StringUtils;

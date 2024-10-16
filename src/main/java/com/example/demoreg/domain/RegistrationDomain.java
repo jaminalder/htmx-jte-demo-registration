@@ -1,4 +1,4 @@
-package com.example.demoreg;
+package com.example.demoreg.domain;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -8,7 +8,7 @@ import org.springframework.web.context.annotation.SessionScope;
 
 import java.io.Serializable;
 
-import static com.example.demoreg.RegistrationState.*;
+import static com.example.demoreg.domain.RegistrationState.*;
 
 @Component
 @SessionScope

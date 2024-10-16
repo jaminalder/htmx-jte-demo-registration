@@ -1,5 +1,7 @@
-package com.example.demoreg;
+package com.example.demoreg.view.enteremail;
 
+import com.example.demoreg.domain.RegistrationDomain;
+import com.example.demoreg.view.entertoken.TokenController;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

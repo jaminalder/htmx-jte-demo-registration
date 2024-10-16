@@ -1,4 +1,4 @@
-@param com.example.demoreg.TextFieldViewModel model
+@param com.example.demoreg.view.shared.TextFieldViewModel model
 
 <label class="px-2 py-2">${model.getLabel()}</label>
 <input name="${model.getName()}.value"

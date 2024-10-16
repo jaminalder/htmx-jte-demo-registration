@@ -1,4 +1,4 @@
-package com.example.demoreg;
+package com.example.demoreg.view.shared;
 
 import lombok.Getter;
 import lombok.Setter;

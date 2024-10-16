@@ -1,4 +1,4 @@
-@import com.example.demoreg.EnterTokenViewModel
+@import com.example.demoreg.view.entertoken.EnterTokenViewModel
 
 @param EnterTokenViewModel model
 

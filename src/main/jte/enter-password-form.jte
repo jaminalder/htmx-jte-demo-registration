@@ -1,4 +1,4 @@
-@import com.example.demoreg.EnterPasswordViewModel
+@import com.example.demoreg.view.enterpassword.EnterPasswordViewModel
 
 @param EnterPasswordViewModel model
 

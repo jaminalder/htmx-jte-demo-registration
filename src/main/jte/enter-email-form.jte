@@ -1,4 +1,4 @@
-@import com.example.demoreg.EnterEmailViewModel
+@import com.example.demoreg.view.enteremail.EnterEmailViewModel
 
 @param EnterEmailViewModel model
 
