@@ -1,11 +1,13 @@
 package com.example.demoreg;
 
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.util.StringUtils;
 
 @Getter
 public class EnterTokenViewModel {
-    private final String email;
+    @Setter
+    private String email;
     private final TextFieldViewModel tokenTextField;
 
     public EnterTokenViewModel(String email) {

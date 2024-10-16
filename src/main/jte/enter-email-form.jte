@@ -2,7 +2,7 @@
 
 @param EnterEmailViewModel model
 
-<form hx-post="/enter-email" class="flex flex-col flex-grow w-full">
+<form hx-post="/enter-email" hx-indicator="#spinner" class="flex flex-col flex-grow w-full">
     <h3 class="text-xl text-gray-600 text-center mb-6">Enter Email</h3>
     <div class="flex-1 flex flex-col justify-center">
         <div class="mb-4">

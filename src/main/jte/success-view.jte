@@ -1,4 +1,4 @@
-<form hx-post="/enter-password" class="flex flex-col flex-grow w-full">
+<form hx-get="/enter-email-form" hx-indicator="#spinner" class="flex flex-col flex-grow w-full">
     <h3 class="text-xl text-gray-600 text-center mb-6">Account Created</h3>
     <div class="flex-1 flex flex-col justify-center">
         <img alt="daisy" src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.webp" />

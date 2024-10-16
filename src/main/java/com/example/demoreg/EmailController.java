@@ -22,13 +22,18 @@ public class EmailController {
 
     @GetMapping("/enter-email-form")
     public String enterEmailForm(Model model) {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
         bindViewModel(new EnterEmailViewModel(), model);
         return "enter-email-form";
     }
 
     @PostMapping("/enter-email")
     public String enterEmail(EnterEmailViewModel enterEmailViewModel, Model model) {
-        if(!enterEmailViewModel.validate()) {
+        if (!enterEmailViewModel.validate()) {
             bindViewModel(enterEmailViewModel, model);
             return "enter-email-form";
         }

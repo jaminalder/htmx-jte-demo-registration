@@ -2,7 +2,7 @@
 
 @param EnterTokenViewModel model
 
-<form hx-post="/enter-token" class="flex flex-col flex-grow w-full">
+<form hx-post="/enter-token" hx-indicator="#spinner" class="flex flex-col flex-grow w-full">
     <h3 class="text-xl text-gray-600 text-center mb-6">Enter Token</h3>
     <p class="text-gray-600">We just emailed you a token to ${model.getEmail()}. Please enter the token.</p>
     <div class="flex-1 flex flex-col justify-center">

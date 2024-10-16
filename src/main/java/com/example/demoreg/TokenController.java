@@ -26,6 +26,7 @@ public class TokenController {
             registrationDomain.confirmEmail();
             return passwordController.enterPasswordForm(model);
         } else {
+            enterTokenViewModel.setEmail(registrationDomain.getEmail());
             return bindModelAndShowForm(enterTokenViewModel, model);
         }
     }
