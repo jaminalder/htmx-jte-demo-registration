@@ -40,7 +40,6 @@ public class EmailController {
             return "enter-email-form";
         }
         registrationDomain.enterEmail(enterEmailViewModel.getEmailTextField().getValue());
-        registrationDomain.acceptToc();
         return tokenController.enterTokenForm(model);
     }
 

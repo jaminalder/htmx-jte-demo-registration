@@ -29,13 +29,8 @@ public class RegistrationDomain implements Serializable {
         this.state = EMAIL_ENTERED;
     }
 
-    public void acceptToc() {
-        Assert.state(state == EMAIL_ENTERED, "TOC must be accepted after email has been entered");
-        this.state = TOC_ACCEPTED;
-    }
-
     public void confirmEmail() {
-        Assert.state(state == TOC_ACCEPTED, "TOC must be accepted before confirming email");
+        Assert.state(state == EMAIL_ENTERED, "Email must be entered before it can be confirmed");
         this.state = EMAIL_CONFIRMED;
     }
 
